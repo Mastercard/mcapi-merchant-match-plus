@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="66px" viewBox="0 0 48 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20,58 C33.3333333,40.1741934 40,27.553823 40,20.1388889 C40,9.01648768 31.045695,0 20,0 C8.954305,0 0,9.01648768 0,20.1388889 C0,27.553823 6.66666667,40.1741934 20,58 Z" id="path-1"></path>
+        <filter x="-17.5%" y="-8.6%" width="135.0%" height="124.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.240460824 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="transaction_details_1" transform="translate(-164.000000, -180.000000)" fill-rule="nonzero">
+            <g id="map-marker" transform="translate(168.000000, 182.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <path stroke="#47B89E" stroke-width="1" d="M20,57.1640945 C33.0018578,39.7076479 39.5,27.3335691 39.5,20.1388889 C39.5,9.29185843 30.7687751,0.5 20,0.5 C9.23122493,0.5 0.5,9.29185843 0.5,20.1388889 C0.5,27.3335691 6.99814224,39.7076479 20,57.1640945 Z" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g id="icon_retail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M17.58,31 L9,22.42 L19.38,12.09 L26.6,9 L31,13.4 L27.81,20.77 L17.58,31 Z M10.31,22.42 L17.58,29.69 L27.09,20.18 L29.9,13.62 L26.38,10.1 L19.82,12.91 L10.31,22.42 Z M25.5,16.36 C24.613295,16.3601986 23.8497387,15.7344467 23.6757442,14.8649803 C23.5017496,13.995514 23.9657018,13.1241174 24.7841987,12.783077 C25.6026957,12.4420366 26.5481271,12.7261901 27.0429827,13.4619643 C27.5378384,14.1977384 27.4445073,15.1805268 26.82,15.81 C26.4708701,16.161906 25.9957111,16.359889 25.5,16.36 Z M25.5,13.56 C25.0509043,13.5603258 24.6647681,13.8782802 24.5782786,14.3189691 C24.4917891,14.7596579 24.7291077,15.1999715 25.144767,15.3700139 C25.5604263,15.5400563 26.0383088,15.3923251 26.2854902,15.0173738 C26.5326717,14.6424226 26.4801001,14.1449968 26.16,13.83 C25.9840015,13.6568074 25.7469233,13.5598209 25.5,13.56 Z" id="icon_mobile_percentage_badge_black" fill="#378F7B" fill-rule="nonzero"></path>
+    </g>
+</svg>

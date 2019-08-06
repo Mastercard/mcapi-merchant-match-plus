@@ -1,0 +1,87 @@
+{
+  "name": "Premier Checking",
+  "last4": "...6078",
+  "balance": 895030,
+  "transactions": [
+    {
+      "id": 1,
+      "merchant": {
+        "name": "AIRFLEX",
+        "ref": "AIRFLEXKARRINYUPWA",
+        "category": "retail"
+      },
+      "trans_date": "08/11/2018",
+      "trans_amount": "12032"
+    },
+    {
+      "id": 2,
+      "merchant": {
+        "name": "U2 KENT ST LUNCH BAR",
+        "ref": "U2KENTSTLUNCHBARCANNINGTONWA",
+        "category": "food"
+      },
+      "trans_date": "08/10/2018",
+      "trans_amount": "3719"
+    },
+    {
+      "id": 3,
+      "merchant": {
+        "name": "DAVEEBAY",
+        "ref": "DAVEEBAYBEDFORDWA",
+        "category": "online_retail"
+      },
+      "trans_date": "08/10/2018",
+      "trans_amount": "2329",
+      "trans_amount_org": "1800",
+      "trans_amount_org_curr": "GBP"
+    },
+    {
+      "id": 4,
+      "merchant": {
+        "name": "SPECIALTY FASHN GRP",
+        "ref": "SPECIALTYFASHNGRPJOONDALUPWA",
+        "category": "retail"
+      },
+      "trans_date": "08/10/2018",
+      "trans_amount": "1233",
+      "trans_amount_org": "232",
+      "trans_amount_org_curr": "GBP"
+    },
+    {
+      "id": 5,
+      "merchant": {
+        "name": "HEALTH WAY PTY.LTD",
+        "ref": "HEALTHWAYPTY.LTDWARNBROWA",
+        "category": "retail"
+      },
+      "trans_date": "08/10/2018",
+      "trans_amount": "1233",
+      "trans_amount_org": "232",
+      "trans_amount_org_curr": "GBP"
+    },
+    {
+      "id": 6,
+      "merchant": {
+        "name": "PERTH AIR AND POWER SO",
+        "ref": "PERTHAIRANDPOWERSOTRIGGWA",
+        "category": "online_retail"
+      },
+      "trans_date": "08/10/2018",
+      "trans_amount": "1233",
+      "trans_amount_org": "232",
+      "trans_amount_org_curr": "GBP"
+    },
+    {
+      "id": 7,
+      "merchant": {
+        "name": "FLOWERS PEP",
+        "ref": "FLOWERSPEPLANGFORDWA",
+        "category": "online_retail"
+      },
+      "trans_date": "08/10/2018",
+      "trans_amount": "323",
+      "trans_amount_org": "232",
+      "trans_amount_org_curr": "GBP"
+    }
+  ]
+}

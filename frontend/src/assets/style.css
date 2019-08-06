@@ -1,0 +1,201 @@
+html {
+  background: rgba(142,142,147,0.12);
+}
+body {
+  margin: 0;
+}
+
+#page-header {
+  display: flex;
+  align-items: center;
+  padding: 18px 48px;
+  background-color: white;
+  height: 120px;
+}
+#nav-icon {
+  width: 40px;
+}
+
+#page-title {
+  font-family: Lato-Semibold;
+  font-size: 54px;
+  color: #242423;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 54px;
+  flex-grow: 1;
+}
+
+#account {
+  background-color: white;
+  margin: 48px 36px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+  border-radius: 4px;
+  padding: 24px 16px;
+}
+
+#account-info {
+  padding: 36px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+
+
+#account-name span{
+  display: block;
+  font-family: Lato-Regular;
+  font-size: 40px;
+  color: #242423;
+  letter-spacing: 0;
+  line-height: 20px;
+  padding: 16px 0;
+}
+
+#account-balance label {
+  display: block;
+  padding: 10px 0;
+  font-family: Lato-Medium;
+  font-size: 30px;
+  color: #94918C;
+  letter-spacing: 0;
+  text-align: right;
+}
+
+#account-balance span {
+  display: block;
+  font-family: Lato-Regular;
+  font-size: 60px;
+  color: #242423;
+  letter-spacing: 0;
+  text-align: right;
+}
+
+#account-action {
+  font-family: Lato-Medium;
+  font-size: 30px;
+  color: #47B89E;
+  letter-spacing: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 16px;
+}
+
+#transaction-list {
+  background-color: white;
+}
+
+#transaction-list h1 {
+  font-family: Lato-Semibold;
+  font-size: 40px;
+  color: #353432;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 48px;
+  margin: 0;
+}
+
+.transaction-item {
+  height: 150px;
+  border-top: solid 1px gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.transaction-icon {
+  margin: 0 48px;
+  border-radius: 50%;
+  background-color: rgba(142,142,147,0.12);
+  border: 1px solid;
+  width: 72px;
+  height: 72px;
+}
+
+.transaction-icon img {
+  width: 72px;
+  height: 72px;
+}
+
+.transaction-description {
+  flex: 1
+}
+
+.transaction-description span {
+  display: block;
+  font-family: Lato-Medium;
+  font-size: 32px;
+  color: #444240;
+  letter-spacing: 0;
+}
+
+.transaction-description span.transaction-date {
+  color:  #B3B0A9;
+}
+
+.transaction-amount {
+  color: brown;
+  font-size: 40px;
+}
+
+.transaction-nav {
+  margin: 0 28px;
+}
+
+.transaction-nav img {
+  height: 24px;
+}
+
+.loading {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+}
+
+#transaction {
+  background-color: white;
+}
+
+#map {
+  height: 30vh;
+  border: 1px solid;
+}
+
+#merchant-info {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 56px;
+  padding: 40px 0;
+}
+
+#transaction-amount {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 90px;
+  padding: 30px 0;
+}
+
+.transaction-field {
+  display: block;
+  width: 100%;
+  font-size: 48px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #EAE7E1;
+  padding: 48px 0;
+}
+
+.transaction-field label {
+  color: #94918C;
+  margin-left: 36px;
+}
+
+.transaction-field span {
+  text-align: right;
+  margin-right: 36px;
+}

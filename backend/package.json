@@ -1,0 +1,37 @@
+{
+  "name": "merchant-match-plus-backend",
+  "version": "1.0.0",
+  "description": "API backend server",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "rules": {
+      "no-console": 0
+    },
+    "parserOptions": {
+      "ecmaVersion": 9,
+      "sourceType": "module"
+    }
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.13",
+    "mastercard-merchant-identifier": "^2.0.0",
+    "mastercard-places": "^1.0.5",
+    "node-cache": "^4.2.0"
+  }
+}

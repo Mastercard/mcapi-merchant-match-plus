@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="66px" viewBox="0 0 48 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20,58 C33.3333333,40.1741934 40,27.553823 40,20.1388889 C40,9.01648768 31.045695,0 20,0 C8.954305,0 0,9.01648768 0,20.1388889 C0,27.553823 6.66666667,40.1741934 20,58 Z" id="path-1"></path>
+        <filter x="-17.5%" y="-8.6%" width="135.0%" height="124.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.240460824 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="transaction_details_1" transform="translate(-164.000000, -180.000000)" fill-rule="nonzero">
+            <g id="map-marker" transform="translate(168.000000, 182.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <path stroke="#47B89E" stroke-width="1" d="M20,57.1640945 C33.0018578,39.7076479 39.5,27.3335691 39.5,20.1388889 C39.5,9.29185843 30.7687751,0.5 20,0.5 C9.23122493,0.5 0.5,9.29185843 0.5,20.1388889 C0.5,27.3335691 6.99814224,39.7076479 20,57.1640945 Z" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
