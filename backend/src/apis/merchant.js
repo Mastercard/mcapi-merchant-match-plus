@@ -24,7 +24,6 @@ const getMerchant = (req, res) => {
 
   // get merchant identifier:
   getMerchantIdentifierByMerchantId(merchantRef)
-    .then(mid => mid.merchant)
     .then(mid => {
       merchant = {
         ref: merchantRef,
