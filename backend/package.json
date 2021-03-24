@@ -29,7 +29,7 @@
   "dependencies": {
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "mastercard-merchant-identifier": "^2.0.0",
     "mastercard-places": "^1.0.5",
     "node-cache": "^4.2.0"
